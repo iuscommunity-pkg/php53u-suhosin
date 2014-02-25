@@ -7,7 +7,7 @@
 %define name %{php_base}-suhosin
 
 Name:          	%{name} 
-Version:        0.9.33
+Version:        0.9.35
 Release:        1.ius%{?dist}
 Summary:        Suhosin is an advanced protection system for PHP installations
 
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 %{php_extdir}/suhosin.so
 
 %changelog
+* Tue Feb 25 2014 Ben Harper <ben.harper@rackspace.com> - 0.9.35-1.ius
+- Latest sources from upstream
+
 * Thu Jan 26 2012 Jeffrey Ness <jeffrey.ness@rackspace.com> - 0.9.33-1
 - Latest sources from upstream
 
